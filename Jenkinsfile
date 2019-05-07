@@ -14,10 +14,10 @@ pipeline {
     }      
   }
   environment {
-    image = "vfarcic/go-demo-5"
+    image = "zerg71/go-demo-5"
     project = "go-demo-5"
-    domain = "34.210.146.155.nip.io"
-    cmAddr = "cm.34.210.146.155.nip.io"
+    domain = "192.168.99.100.nip.io"
+    cmAddr = "cm.192.168.99.100.nip.io"
   }
   stages {
     stage("build") {
